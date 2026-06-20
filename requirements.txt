@@ -1,6 +1,10 @@
-numpy
+﻿numpy
 matplotlib
 opencv-python
 Pillow
 jupyter
 ipykernel
+torch
+torchvision
+tqdm
+scikit-learn
