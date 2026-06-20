@@ -1,0 +1,21 @@
+@"
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files
+*.pth
+*.pt
+*.h5
+*.caffemodel
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content ".gitignore" -Encoding UTF8
