@@ -19,3 +19,9 @@ venv/
 .DS_Store
 Thumbs.db
 "@ | Set-Content ".gitignore" -Encoding UTF8
+# Dataset files
+data/raw/
+data/dataset/
+data/sample_color/
+data/sample_gray/
+outputs/
