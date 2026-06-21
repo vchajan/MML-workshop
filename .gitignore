@@ -33,3 +33,10 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated / local data
+data/
+outputs/
+models/
+input_images/*
+!input_images/.gitkeep
