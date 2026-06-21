@@ -1,5 +1,4 @@
-@"
-# Python
+﻿# Python
 __pycache__/
 *.pyc
 .venv/
@@ -8,20 +7,29 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
+# Dataset files
+data/raw/
+data/dataset/
+data/sample_color/
+data/sample_gray/
+input_images/
+dataset.zip
+*.zip
+
+# Outputs / generated files
+outputs/
+models/
+checkpoints/
+logs/
+
 # Large model files
 *.pth
 *.pt
 *.h5
 *.caffemodel
 *.onnx
+*.ckpt
 
 # OS
 .DS_Store
 Thumbs.db
-"@ | Set-Content ".gitignore" -Encoding UTF8
-# Dataset files
-data/raw/
-data/dataset/
-data/sample_color/
-data/sample_gray/
-outputs/
