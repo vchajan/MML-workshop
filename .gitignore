@@ -40,3 +40,4 @@ outputs/
 models/
 input_images/*
 !input_images/.gitkeep
+*.npz
